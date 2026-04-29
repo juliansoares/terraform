@@ -15,3 +15,10 @@ variable "subnet_id" {
   type        = string
   default     = "subnet-04a2e4f809cdb5738"
 }
+
+variable "image_id" {
+  description = "ID da imagem AMI para a instância EC2"
+  type        = string
+  default     = "ami-123"
+}
+
